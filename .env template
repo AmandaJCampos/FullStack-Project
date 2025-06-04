@@ -1,0 +1,7 @@
+TEMPLATE - ESTRUTURA
+
+SUPABASE_URL = link_do_nosso_supabase
+SUPABASE_KEY = sua_chave_publica 
+JWT_SECRET = palavra_secreta123
+PORT = 3300
+
