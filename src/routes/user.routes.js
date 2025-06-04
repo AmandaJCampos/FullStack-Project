@@ -8,7 +8,7 @@ userRoutes.post('/register', controller.registerUser);
 userRoutes.post('/login', controller.authentication);
 
 userRoutes.get('/', auth, controller.listUsers);
-userRoutes.pu('/:id', auth, controller.updateUser)
+userRoutes.put('/:id', auth, controller.updateUser)
 userRoutes.delete('/:id', auth, controller.deleteUser)
 
 
